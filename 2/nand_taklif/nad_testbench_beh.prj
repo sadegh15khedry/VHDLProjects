@@ -1,0 +1,2 @@
+vhdl work "nand_module.vhd"
+vhdl work "nad_testbench.vhd"

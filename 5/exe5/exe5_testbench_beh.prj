@@ -1,0 +1,2 @@
+vhdl work "exe5_module.vhd"
+vhdl work "exe5_testbench.vhd"

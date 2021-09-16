@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\uni\university\term 9\logical-lab\takalif\5\exe5\exe5_module.ncd
+OUTFILE=D:\uni\university\term 9\logical-lab\takalif\5\exe5\exe5_module.bit
+FAMILY=Spartan6
+PART=xc6slx150t-3fgg676
+WORKINGDIR=D:\uni\university\term 9\logical-lab\takalif\5\exe5
+LICENSE=ISE
+USER_INFO=__0_0_0

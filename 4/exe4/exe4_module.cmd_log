@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/asus/exe4/exe4_module.xst" -ofn "C:/Users/asus/exe4/exe4_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg676-3 exe4_module.ngc exe4_module.ngd  
+map -intstyle ise -p xc6slx150t-fgg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o exe4_module_map.ncd exe4_module.ngd exe4_module.pcf 
+par -w -intstyle ise -ol high -mt off exe4_module_map.ncd exe4_module.ncd exe4_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml exe4_module.twx exe4_module.ncd -o exe4_module.twr exe4_module.pcf 
+bitgen -intstyle ise -f exe4_module.ut exe4_module.ncd 

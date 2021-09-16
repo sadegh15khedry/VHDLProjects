@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/asus/nand_taklif/nad_testbench_isim_beh.exe" -prj "C:/Users/asus/nand_taklif/nad_testbench_beh.prj" "work.nad_testbench" 

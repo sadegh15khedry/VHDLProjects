@@ -1,0 +1,2 @@
+vhdl isim_temp "nand_module.vhd"
+vhdl isim_temp "nad_testbench.vhd"
