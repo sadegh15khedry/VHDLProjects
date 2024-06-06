@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\asus\or_taklif\or_module.ncd
+OUTFILE=C:\Users\asus\or_taklif\or_module.bit
+FAMILY=Spartan6
+PART=xc6slx150t-3fgg676
+WORKINGDIR=C:\Users\asus\or_taklif
+LICENSE=ISE
+USER_INFO=__0_0_0

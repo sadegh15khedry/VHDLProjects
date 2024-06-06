@@ -1,0 +1,2 @@
+vhdl isim_temp "ex3_module.vhd"
+vhdl isim_temp "test.vhd"

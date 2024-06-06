@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/asus/or_taklif/or_module.xst" -ofn "C:/Users/asus/or_taklif/or_module.syr" 
+xst -intstyle ise -ifn "C:/Users/asus/or_taklif/or_module.xst" -ofn "C:/Users/asus/or_taklif/or_module.syr" 
+xst -intstyle ise -ifn "C:/Users/asus/or_taklif/or_module.xst" -ofn "C:/Users/asus/or_taklif/or_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg676-3 or_module.ngc or_module.ngd  
+map -intstyle ise -p xc6slx150t-fgg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o or_module_map.ncd or_module.ngd or_module.pcf 
+par -w -intstyle ise -ol high -mt off or_module_map.ncd or_module.ncd or_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml or_module.twx or_module.ncd -o or_module.twr or_module.pcf 
+xst -intstyle ise -ifn "C:/Users/asus/or_taklif/or_module.xst" -ofn "C:/Users/asus/or_taklif/or_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg676-3 or_module.ngc or_module.ngd  
+map -intstyle ise -p xc6slx150t-fgg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o or_module_map.ncd or_module.ngd or_module.pcf 
+par -w -intstyle ise -ol high -mt off or_module_map.ncd or_module.ncd or_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml or_module.twx or_module.ncd -o or_module.twr or_module.pcf 
+bitgen -intstyle ise -f or_module.ut or_module.ncd 

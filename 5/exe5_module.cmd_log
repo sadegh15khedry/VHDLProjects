@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/uni/university/term 9/logical-lab/takalif/2/exe5/exe5_module.xst" -ofn "D:/uni/university/term 9/logical-lab/takalif/2/exe5/exe5_module.syr" 
+xst -intstyle ise -ifn "D:/uni/university/term 9/logical-lab/takalif/2/exe5/exe5_module.xst" -ofn "D:/uni/university/term 9/logical-lab/takalif/2/exe5/exe5_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg676-3 "exe5_module.ngc" exe5_module.ngd  
+map -intstyle ise -p xc6slx150t-fgg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o exe5_module_map.ncd exe5_module.ngd exe5_module.pcf 
+par -w -intstyle ise -ol high -mt off exe5_module_map.ncd exe5_module.ncd exe5_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml exe5_module.twx exe5_module.ncd -o exe5_module.twr exe5_module.pcf 
+bitgen -intstyle ise -f exe5_module.ut exe5_module.ncd 

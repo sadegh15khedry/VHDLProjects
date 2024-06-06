@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/asus/exe3/test_isim_beh.exe" -prj "C:/Users/asus/exe3/test_beh.prj" "work.test" 
